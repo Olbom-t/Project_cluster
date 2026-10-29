@@ -1,0 +1,11 @@
+{
+  "dataset": "2021_moscow_oblast",
+  "completed": true,
+  "candidate_count": 33,
+  "fit_errors": [],
+  "elapsed_seconds": 15.715564727783203,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

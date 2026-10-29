@@ -1,0 +1,60 @@
+{
+  "dataset": "2024_rostov",
+  "region": "Ростовская область",
+  "year": 2024,
+  "method": "kmeans",
+  "variant": "silhouette",
+  "parameters": {
+    "n_clusters": 2,
+    "metric": "euclidean",
+    "features": "all named raw vote shares",
+    "equal_precinct_weights": true,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 2550,
+    "k": 2,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.5350060695134052,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 875,
+    "max_cluster_size": 1675,
+    "clusters_lt_10": 0,
+    "sse": 4.461298550285127,
+    "rmse_profile_pp": 4.182736954733192,
+    "max_party_range_pp": 50.05988023952096,
+    "max_party_central90_range_pp": 10.412983241105522
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.9920905301014313,
+    "ari_common_median": 0.9920905301014313,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 2.0,
+    "resampled_k_counts": {
+      "2": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.9970315362103016,
+      "1": 0.9942856676381031
+    },
+    "min_cluster_jaccard_median": 0.9942856676381031,
+    "unstable_assigned_fraction": 0.00784313725490196,
+    "point_stability_median": 1.0,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "silhouette",
+    "base_sse": 10.325142485120587,
+    "explained_sse_fraction": 0.5679189360617309
+  },
+  "elapsed_stability_seconds": 0.4167051315307617
+}

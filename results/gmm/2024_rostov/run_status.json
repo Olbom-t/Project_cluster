@@ -1,0 +1,11 @@
+{
+  "dataset": "2024_rostov",
+  "completed": true,
+  "candidate_count": 33,
+  "fit_errors": [],
+  "elapsed_seconds": 5.072853326797485,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

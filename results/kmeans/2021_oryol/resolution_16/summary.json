@@ -1,0 +1,69 @@
+{
+  "dataset": "2021_oryol",
+  "region": "Орловская область",
+  "year": 2021,
+  "method": "kmeans",
+  "variant": "resolution_16",
+  "parameters": {
+    "n_clusters": 16,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 703,
+    "k": 16,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.20026446763299025,
+    "silhouette_sample_assigned": 703,
+    "silhouette_sample_size": 703,
+    "min_cluster_size": 8,
+    "max_cluster_size": 80,
+    "clusters_lt_10": 1,
+    "sse": 2.763028429794398,
+    "rmse_profile_pp": 6.269241708888902,
+    "max_party_range_pp": 25.899280575539567,
+    "max_party_central90_range_pp": 17.28069667771718
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.5707445193684161,
+    "ari_common_median": 0.5707445193684161,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 16.0,
+    "resampled_k_counts": {
+      "16": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.39519230769230773,
+      "1": 0.40405073649754497,
+      "2": 0.586848635235732,
+      "3": 0.8775,
+      "4": 0.6885775862068966,
+      "5": 1.0,
+      "6": 0.7567567567567568,
+      "7": 0.8304597701149425,
+      "8": 0.48822062084257206,
+      "9": 0.41650239369191777,
+      "10": 0.16666666666666666,
+      "11": 0.7925143453312467,
+      "12": 0.1438415159345392,
+      "13": 0.43369905956112853,
+      "14": 0.6226415094339622,
+      "15": 0.4658490566037736
+    },
+    "min_cluster_jaccard_median": 0.1438415159345392,
+    "unstable_assigned_fraction": 0.5376955903271693,
+    "point_stability_median": 0.76,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "Fixed resolution checkpoint 8/12/16: test stability vs actual profile spread, not force optimal K."
+  },
+  "elapsed_stability_seconds": 0.9606170654296875
+}

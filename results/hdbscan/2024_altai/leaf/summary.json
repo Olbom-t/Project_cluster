@@ -1,0 +1,72 @@
+{
+  "dataset": "2024_altai",
+  "region": "Алтайский край",
+  "year": 2024,
+  "method": "hdbscan",
+  "variant": "leaf",
+  "parameters": {
+    "min_cluster_size": 34,
+    "min_samples": 5,
+    "cluster_selection_method": "leaf",
+    "allow_single_cluster": true,
+    "metric": "euclidean",
+    "n_jobs": 1,
+    "copy": true
+  },
+  "metrics": {
+    "n": 1698,
+    "k": 2,
+    "coverage": 0.4163722025912839,
+    "noise_count": 991,
+    "silhouette": 0.5039159360276885,
+    "silhouette_sample_assigned": 628,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 38,
+    "max_cluster_size": 669,
+    "clusters_lt_10": 0,
+    "sse": 0.5572331158159333,
+    "rmse_profile_pp": 2.807428809053883,
+    "max_party_range_pp": 9.373401534526849,
+    "max_party_central90_range_pp": 6.667511230227796
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.21961383743659996,
+    "ari_common_median": 0.47002420382902443,
+    "median_resampled_coverage": 0.16605301914580264,
+    "median_resampled_k": 2.0,
+    "resampled_k_counts": {
+      "2": 14,
+      "3": 9,
+      "0": 5,
+      "4": 2
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.2734608673978066,
+      "1": 0.0
+    },
+    "min_cluster_jaccard_median": 0.0,
+    "unstable_assigned_fraction": 0.9632248939179632,
+    "point_stability_median": 0.2,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection": {
+      "rule": "Within each eom/leaf family retain configurations within 0.02 of maximum assigned coverage; among these prefer highest finite silhouette with at least two clusters, otherwise highest coverage diagnostic outcome. Do not compare this silhouette to full-coverage algorithms without coverage.",
+      "maximum_family_coverage": 0.4163722025912839,
+      "coverage_tolerance": 0.02,
+      "all_noise": false,
+      "single_cluster": false,
+      "low_coverage_warning": true,
+      "cluster_size_note": "min_cluster_size limits the number of UIC observations in a density cluster; it does not remove small-electorate precincts.",
+      "stability_note": "Absolute min_cluster_size and min_samples remain fixed across 80% subsamples; no predictive assignment to excluded UICs is invented."
+    },
+    "candidate": 9,
+    "grid_candidates": 16,
+    "grid_failures": []
+  },
+  "elapsed_stability_seconds": 0.3768000602722168
+}

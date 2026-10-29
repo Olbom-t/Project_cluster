@@ -1,0 +1,65 @@
+{
+  "dataset": "2021_altai",
+  "region": "Алтайский край",
+  "year": 2021,
+  "method": "kmeans",
+  "variant": "resolution_12",
+  "parameters": {
+    "n_clusters": 12,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 1834,
+    "k": 12,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.1900884290701299,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 38,
+    "max_cluster_size": 387,
+    "clusters_lt_10": 0,
+    "sse": 10.701178051994587,
+    "rmse_profile_pp": 7.638641524525837,
+    "max_party_range_pp": 40.52863436123348,
+    "max_party_central90_range_pp": 24.425908274950743
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.5714659979897563,
+    "ari_common_median": 0.5714659979897563,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 12.0,
+    "resampled_k_counts": {
+      "12": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.5853523242513197,
+      "1": 0.7451980792316927,
+      "2": 0.5557926829268293,
+      "3": 0.711111111111111,
+      "4": 0.8058449074074074,
+      "5": 1.0,
+      "6": 0.8273291925465839,
+      "7": 0.6437761069340017,
+      "8": 0.45578277356446373,
+      "9": 0.4738675958188153,
+      "10": 0.5993680803071784,
+      "11": 0.7427771436724212
+    },
+    "min_cluster_jaccard_median": 0.45578277356446373,
+    "unstable_assigned_fraction": 0.5043620501635769,
+    "point_stability_median": 0.7916666666666666,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "Fixed resolution checkpoint 8/12/16: test stability vs actual profile spread, not force optimal K."
+  },
+  "elapsed_stability_seconds": 1.7141001224517822
+}

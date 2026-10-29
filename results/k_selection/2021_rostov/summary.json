@@ -1,0 +1,19 @@
+{
+  "dataset": "2021_rostov",
+  "repeats": 10,
+  "fraction": 0.8,
+  "grid": [
+    2,
+    20
+  ],
+  "n_init": 20,
+  "silhouette_sample": 1000,
+  "elbow_counts": {
+    "4": 8,
+    "3": 2
+  },
+  "silhouette_counts": {
+    "2": 10
+  },
+  "note": "Exploratory K-selection variability; 10 repetitions, not external validation; silhouette sample differs from main 1500-point evaluation."
+}

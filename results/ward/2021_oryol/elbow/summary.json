@@ -1,0 +1,58 @@
+{
+  "dataset": "2021_oryol",
+  "region": "Орловская область",
+  "year": 2021,
+  "method": "ward",
+  "variant": "elbow",
+  "parameters": {
+    "n_clusters": 3,
+    "metric": "euclidean",
+    "features": "all named raw vote shares",
+    "equal_precinct_weights": true,
+    "linkage": "ward"
+  },
+  "metrics": {
+    "n": 703,
+    "k": 3,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.3661357980562975,
+    "silhouette_sample_assigned": 703,
+    "silhouette_sample_size": 703,
+    "min_cluster_size": 151,
+    "max_cluster_size": 296,
+    "clusters_lt_10": 0,
+    "sse": 7.133940247090774,
+    "rmse_profile_pp": 10.073654954419165,
+    "max_party_range_pp": 48.550724637681164,
+    "max_party_central90_range_pp": 22.044340573360653
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.6325810426325287,
+    "ari_common_median": 0.6325810426325287,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 3.0,
+    "resampled_k_counts": {
+      "3": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.7109338569149588,
+      "1": 0.7993490821326703,
+      "2": 0.8840889203716822
+    },
+    "min_cluster_jaccard_median": 0.7109338569149588,
+    "unstable_assigned_fraction": 0.2702702702702703,
+    "point_stability_median": 0.92,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "elbow",
+    "base_sse": 23.522917713990402,
+    "explained_sse_fraction": 0.6967238361401138
+  },
+  "elapsed_stability_seconds": 0.5490193367004395
+}

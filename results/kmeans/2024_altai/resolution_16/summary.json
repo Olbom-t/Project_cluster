@@ -1,0 +1,69 @@
+{
+  "dataset": "2024_altai",
+  "region": "Алтайский край",
+  "year": 2024,
+  "method": "kmeans",
+  "variant": "resolution_16",
+  "parameters": {
+    "n_clusters": 16,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 1698,
+    "k": 16,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.24630970496315271,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 9,
+    "max_cluster_size": 201,
+    "clusters_lt_10": 1,
+    "sse": 0.8240618266937432,
+    "rmse_profile_pp": 2.2029825412637156,
+    "max_party_range_pp": 14.61038961038961,
+    "max_party_central90_range_pp": 14.22077922077922
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.6523818741690781,
+    "ari_common_median": 0.6523818741690781,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 16.0,
+    "resampled_k_counts": {
+      "16": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.5454545454545454,
+      "1": 0.5898026315789473,
+      "2": 0.768790471785384,
+      "3": 0.8321596244131455,
+      "4": 0.4110131162369969,
+      "5": 0.5862068965517241,
+      "6": 0.7793640493186242,
+      "7": 0.8666666666666667,
+      "8": 0.7701665365599792,
+      "9": 0.81036866359447,
+      "10": 0.5916577105179075,
+      "11": 0.37595907928388744,
+      "12": 0.8163873670641315,
+      "13": 0.7654809412412275,
+      "14": 0.7185249207721118,
+      "15": 0.7875000000000001
+    },
+    "min_cluster_jaccard_median": 0.37595907928388744,
+    "unstable_assigned_fraction": 0.375736160188457,
+    "point_stability_median": 0.8888888888888888,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "Fixed resolution checkpoint 8/12/16: test stability vs actual profile spread, not force optimal K."
+  },
+  "elapsed_stability_seconds": 1.5584964752197266
+}

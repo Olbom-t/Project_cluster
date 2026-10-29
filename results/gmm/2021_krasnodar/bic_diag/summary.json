@@ -1,0 +1,498 @@
+{
+  "dataset": "2021_krasnodar",
+  "region": "Краснодарский край",
+  "year": 2021,
+  "method": "gmm",
+  "variant": "bic_diag",
+  "parameters": {
+    "n_components": 19,
+    "covariance_type": "diag",
+    "reg_covar": 1e-06,
+    "n_init": 2,
+    "max_iter": 300,
+    "retry_max_iter": 600,
+    "tol": 0.001,
+    "init_params": "kmeans",
+    "random_state": 20261047
+  },
+  "metrics": {
+    "n": 2855,
+    "k": 19,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": -0.03619044002493243,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 57,
+    "max_cluster_size": 333,
+    "clusters_lt_10": 0,
+    "sse": 24.39823334049555,
+    "rmse_profile_pp": 9.244344764466959,
+    "max_party_range_pp": 80.43478260869566,
+    "max_party_central90_range_pp": 46.494477000596326
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.5474585688044218,
+    "ari_common_median": 0.5474585688044218,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 19.0,
+    "resampled_k_counts": {
+      "19": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.8521012931034483,
+      "1": 0.3789759939984996,
+      "2": 0.5953082378614294,
+      "3": 0.5500138927479856,
+      "4": 0.3081175836030205,
+      "5": 0.6121039944903581,
+      "6": 0.22513286930996906,
+      "7": 0.5792722902097902,
+      "8": 0.3446939825132865,
+      "9": 0.38269934744548784,
+      "10": 0.7680862082702573,
+      "11": 0.5189665234229932,
+      "12": 0.3287037037037037,
+      "13": 0.5474493623405852,
+      "14": 0.03270324523251923,
+      "15": 0.3782393292682927,
+      "16": 0.6183473389355743,
+      "17": 0.3822518263859046,
+      "18": 0.506198347107438
+    },
+    "min_cluster_jaccard_median": 0.03270324523251923,
+    "unstable_assigned_fraction": 0.6893169877408056,
+    "point_stability_median": 0.6666666666666666,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection": "Lowest BIC within this covariance family",
+    "selection_row": {
+      "dataset": "2021_krasnodar",
+      "covariance_type": "diag",
+      "n_components": 19,
+      "reg_covar": 1e-06,
+      "bic": -262164.4501938553,
+      "aic": -265440.7051110048,
+      "log_likelihood": 46.67963311926529,
+      "converged": true,
+      "n_iter": 18,
+      "max_iter_used": 300,
+      "warnings_count": 0,
+      "elapsed_seconds": 0.08874988555908203,
+      "n": 2855,
+      "k": 19,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "silhouette": -0.03619044002493243,
+      "silhouette_sample_assigned": 1500,
+      "silhouette_sample_size": 1500,
+      "min_cluster_size": 57,
+      "max_cluster_size": 333,
+      "clusters_lt_10": 0,
+      "sse": 24.39823334049555,
+      "rmse_profile_pp": 9.244344764466959,
+      "max_party_range_pp": 80.43478260869566,
+      "max_party_central90_range_pp": 46.494477000596326
+    },
+    "grid_components": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "selection_at_upper_boundary": false,
+    "fit_diagnostics": [
+      {
+        "max_iter": 300,
+        "converged": true,
+        "n_iter": 18,
+        "warnings": []
+      }
+    ],
+    "resampling_fit_diagnostics": [
+      {
+        "seed": 997266307,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 27,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 286728812,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 22,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1498240444,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 15,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 999952772,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 33,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1857491346,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 51,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1298219575,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 17,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1562712188,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 38,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 187952135,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 22,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1264253687,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 22,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 155655626,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 26,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 867899943,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 16,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2064900111,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 22,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1489100699,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 33,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 228665397,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 36,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 215763615,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 18,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2033235180,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 51,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1312503048,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 14,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 709499504,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 21,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1849290109,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 23,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1694175933,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 13,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1057026519,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 28,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 998299239,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 53,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 76808760,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 18,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 450639369,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 30,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1777910303,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 35,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 103782434,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 27,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1198139505,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 17,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1249078917,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 76,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1928313795,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 35,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1805637821,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 26,
+            "warnings": []
+          }
+        ]
+      }
+    ],
+    "regularization_sensitivity": {
+      "reg_covar": 1e-05,
+      "ari_against_primary": 0.4792847001350846,
+      "metrics": {
+        "n": 2855,
+        "k": 19,
+        "coverage": 1.0,
+        "noise_count": 0,
+        "silhouette": 0.03685380800861586,
+        "silhouette_sample_assigned": 1500,
+        "silhouette_sample_size": 1500,
+        "min_cluster_size": 37,
+        "max_cluster_size": 497,
+        "clusters_lt_10": 0,
+        "sse": 18.49870726600784,
+        "rmse_profile_pp": 8.049476441624364,
+        "max_party_range_pp": 80.43478260869566,
+        "max_party_central90_range_pp": 38.45652744508997
+      },
+      "bic": -251728.8052673406,
+      "aic": -255005.06018449014,
+      "diagnostics": [
+        {
+          "max_iter": 300,
+          "converged": true,
+          "n_iter": 13,
+          "warnings": []
+        }
+      ]
+    },
+    "interpretation": "Gaussian component probabilities are conditional model probabilities, not validated probabilities of true electoral types.",
+    "limitation": "The original shares sum to one. reg_covar regularizes singular covariance matrices without changing the input shares. Ambient-coordinate BIC depends on this model specification; full/diag BIC values are not independent evidence of true cluster count."
+  },
+  "elapsed_stability_seconds": 2.301978826522827
+}

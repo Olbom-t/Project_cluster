@@ -1,0 +1,478 @@
+{
+  "dataset": "2021_altai",
+  "region": "Алтайский край",
+  "year": 2021,
+  "method": "gmm",
+  "variant": "bic_full",
+  "parameters": {
+    "n_components": 4,
+    "covariance_type": "full",
+    "reg_covar": 1e-06,
+    "n_init": 2,
+    "max_iter": 300,
+    "retry_max_iter": 600,
+    "tol": 0.001,
+    "init_params": "kmeans",
+    "random_state": 20261032
+  },
+  "metrics": {
+    "n": 1834,
+    "k": 4,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.17717029793910108,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 135,
+    "max_cluster_size": 968,
+    "clusters_lt_10": 0,
+    "sse": 36.3991973546093,
+    "rmse_profile_pp": 14.087899274498872,
+    "max_party_range_pp": 79.48356211760432,
+    "max_party_central90_range_pp": 43.29842906260454
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.4799063003215585,
+    "ari_common_median": 0.4799063003215585,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 4.0,
+    "resampled_k_counts": {
+      "4": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.36928082740926826,
+      "1": 0.7845627747923791,
+      "2": 0.29508363471971066,
+      "3": 0.6096709870388833
+    },
+    "min_cluster_jaccard_median": 0.29508363471971066,
+    "unstable_assigned_fraction": 0.5452562704471101,
+    "point_stability_median": 0.7391304347826086,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection": "Lowest BIC within this covariance family",
+    "selection_row": {
+      "dataset": "2021_altai",
+      "covariance_type": "full",
+      "n_components": 4,
+      "reg_covar": 1e-06,
+      "bic": -167238.19500618934,
+      "aic": -169879.5229848884,
+      "log_likelihood": 46.57511531758136,
+      "converged": true,
+      "n_iter": 42,
+      "max_iter_used": 300,
+      "warnings_count": 0,
+      "elapsed_seconds": 0.09268712997436523,
+      "n": 1834,
+      "k": 4,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "silhouette": 0.17717029793910108,
+      "silhouette_sample_assigned": 1500,
+      "silhouette_sample_size": 1500,
+      "min_cluster_size": 135,
+      "max_cluster_size": 968,
+      "clusters_lt_10": 0,
+      "sse": 36.3991973546093,
+      "rmse_profile_pp": 14.087899274498872,
+      "max_party_range_pp": 79.48356211760432,
+      "max_party_central90_range_pp": 43.29842906260454
+    },
+    "grid_components": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "selection_at_upper_boundary": false,
+    "fit_diagnostics": [
+      {
+        "max_iter": 300,
+        "converged": true,
+        "n_iter": 42,
+        "warnings": []
+      }
+    ],
+    "resampling_fit_diagnostics": [
+      {
+        "seed": 732571764,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 36,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1123259006,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 21,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1720295928,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 19,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 422310994,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 20,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1286968021,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 18,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1618483373,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 25,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1657770636,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 25,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2106914424,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 25,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 373896654,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 30,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 316093379,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 22,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1206068029,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 20,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1180436833,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 19,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 76396673,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 41,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1904532787,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 19,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 363825317,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 26,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1268878000,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 23,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2061459236,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 31,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 427349957,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 24,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 954865605,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 26,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 516903360,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 23,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1789534022,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 17,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1780933697,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 53,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 25218055,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 25,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2120561499,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 47,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1459512259,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 12,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1462432623,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 67,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 765251370,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 20,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 220465056,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 27,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2695391,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 26,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1055851931,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 51,
+            "warnings": []
+          }
+        ]
+      }
+    ],
+    "regularization_sensitivity": {
+      "reg_covar": 1e-05,
+      "ari_against_primary": 0.6352753258178749,
+      "metrics": {
+        "n": 1834,
+        "k": 4,
+        "coverage": 1.0,
+        "noise_count": 0,
+        "silhouette": 0.26889291257795145,
+        "silhouette_sample_assigned": 1500,
+        "silhouette_sample_size": 1500,
+        "min_cluster_size": 94,
+        "max_cluster_size": 1022,
+        "clusters_lt_10": 0,
+        "sse": 32.67234445113483,
+        "rmse_profile_pp": 13.347209701727591,
+        "max_party_range_pp": 81.21095752921026,
+        "max_party_central90_range_pp": 48.32894363628995
+      },
+      "bic": -158923.3259200008,
+      "aic": -161564.65389869985,
+      "diagnostics": [
+        {
+          "max_iter": 300,
+          "converged": true,
+          "n_iter": 13,
+          "warnings": []
+        }
+      ]
+    },
+    "interpretation": "Gaussian component probabilities are conditional model probabilities, not validated probabilities of true electoral types.",
+    "limitation": "The original shares sum to one. reg_covar regularizes singular covariance matrices without changing the input shares. Ambient-coordinate BIC depends on this model specification; full/diag BIC values are not independent evidence of true cluster count."
+  },
+  "elapsed_stability_seconds": 1.7486865520477295
+}

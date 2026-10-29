@@ -1,0 +1,480 @@
+{
+  "dataset": "2024_moscow",
+  "region": "Москва",
+  "year": 2024,
+  "method": "gmm",
+  "variant": "bic_full",
+  "parameters": {
+    "n_components": 6,
+    "covariance_type": "full",
+    "reg_covar": 1e-06,
+    "n_init": 2,
+    "max_iter": 300,
+    "retry_max_iter": 600,
+    "tol": 0.001,
+    "init_params": "kmeans",
+    "random_state": 20261034
+  },
+  "metrics": {
+    "n": 2198,
+    "k": 6,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.31679223545640073,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 69,
+    "max_cluster_size": 642,
+    "clusters_lt_10": 0,
+    "sse": 5.410021412057283,
+    "rmse_profile_pp": 4.961187581664373,
+    "max_party_range_pp": 38.981762917933125,
+    "max_party_central90_range_pp": 21.13052964231289
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.7765630675396349,
+    "ari_common_median": 0.7765630675396349,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 6.0,
+    "resampled_k_counts": {
+      "6": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.8385084427767355,
+      "1": 0.845406732117812,
+      "2": 0.7735412917031604,
+      "3": 0.8260504201680672,
+      "4": 0.908786078098472,
+      "5": 0.8400900900900901
+    },
+    "min_cluster_jaccard_median": 0.7735412917031604,
+    "unstable_assigned_fraction": 0.26888080072793447,
+    "point_stability_median": 0.92,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection": "Lowest BIC within this covariance family",
+    "selection_row": {
+      "dataset": "2024_moscow",
+      "covariance_type": "full",
+      "n_components": 6,
+      "reg_covar": 1e-06,
+      "bic": -53831.319751094205,
+      "aic": -54338.20173010596,
+      "log_likelihood": 12.401319774819372,
+      "converged": true,
+      "n_iter": 28,
+      "max_iter_used": 300,
+      "warnings_count": 0,
+      "elapsed_seconds": 0.10348176956176758,
+      "n": 2198,
+      "k": 6,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "silhouette": 0.31679223545640073,
+      "silhouette_sample_assigned": 1500,
+      "silhouette_sample_size": 1500,
+      "min_cluster_size": 69,
+      "max_cluster_size": 642,
+      "clusters_lt_10": 0,
+      "sse": 5.410021412057283,
+      "rmse_profile_pp": 4.961187581664373,
+      "max_party_range_pp": 38.981762917933125,
+      "max_party_central90_range_pp": 21.13052964231289
+    },
+    "grid_components": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "selection_at_upper_boundary": false,
+    "fit_diagnostics": [
+      {
+        "max_iter": 300,
+        "converged": true,
+        "n_iter": 28,
+        "warnings": []
+      }
+    ],
+    "resampling_fit_diagnostics": [
+      {
+        "seed": 500342694,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 26,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1005866638,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 30,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 92337358,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 35,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1582669710,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 32,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 201035818,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 26,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1626364623,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 44,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 396001073,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 31,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2078330327,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 37,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2056295938,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 33,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1404235091,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 29,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1256535181,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 37,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 737797343,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 23,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1702267783,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 24,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 352702986,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 16,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 2080862392,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 37,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 292570837,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 16,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1362631949,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 27,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 156110812,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 31,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1147691977,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 34,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1488333133,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 25,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 426374988,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 17,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 212979636,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 43,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1414491421,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 29,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1762654614,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 32,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 213765046,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 16,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1421560123,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 27,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 1876548354,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 27,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 242011245,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 17,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 930697255,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 27,
+            "warnings": []
+          }
+        ]
+      },
+      {
+        "seed": 163506602,
+        "attempts": [
+          {
+            "max_iter": 300,
+            "converged": true,
+            "n_iter": 15,
+            "warnings": []
+          }
+        ]
+      }
+    ],
+    "regularization_sensitivity": {
+      "reg_covar": 1e-05,
+      "ari_against_primary": 0.6251401306382967,
+      "metrics": {
+        "n": 2198,
+        "k": 6,
+        "coverage": 1.0,
+        "noise_count": 0,
+        "silhouette": 0.36791752177964954,
+        "silhouette_sample_assigned": 1500,
+        "silhouette_sample_size": 1500,
+        "min_cluster_size": 63,
+        "max_cluster_size": 649,
+        "clusters_lt_10": 0,
+        "sse": 4.67228269382367,
+        "rmse_profile_pp": 4.610528508676208,
+        "max_party_range_pp": 38.981762917933125,
+        "max_party_central90_range_pp": 22.244747003901498
+      },
+      "bic": -48587.63244389996,
+      "aic": -49094.514422911714,
+      "diagnostics": [
+        {
+          "max_iter": 300,
+          "converged": true,
+          "n_iter": 14,
+          "warnings": []
+        }
+      ]
+    },
+    "interpretation": "Gaussian component probabilities are conditional model probabilities, not validated probabilities of true electoral types.",
+    "limitation": "The original shares sum to one. reg_covar regularizes singular covariance matrices without changing the input shares. Ambient-coordinate BIC depends on this model specification; full/diag BIC values are not independent evidence of true cluster count."
+  },
+  "elapsed_stability_seconds": 2.000021457672119
+}

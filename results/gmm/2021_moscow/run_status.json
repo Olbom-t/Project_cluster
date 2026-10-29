@@ -1,0 +1,11 @@
+{
+  "dataset": "2021_moscow",
+  "completed": true,
+  "candidate_count": 33,
+  "fit_errors": [],
+  "elapsed_seconds": 10.413173198699951,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

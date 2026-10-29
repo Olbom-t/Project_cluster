@@ -1,0 +1,11 @@
+{
+  "dataset": "2021_altai",
+  "completed": true,
+  "candidate_count": 33,
+  "fit_errors": [],
+  "elapsed_seconds": 7.185649871826172,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

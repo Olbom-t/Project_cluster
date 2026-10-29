@@ -1,0 +1,69 @@
+{
+  "dataset": "2021_moscow",
+  "region": "Москва",
+  "year": 2021,
+  "method": "kmeans",
+  "variant": "resolution_16",
+  "parameters": {
+    "n_clusters": 16,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 3643,
+    "k": 16,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.15665615782806508,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 1,
+    "max_cluster_size": 752,
+    "clusters_lt_10": 2,
+    "sse": 10.201635940300605,
+    "rmse_profile_pp": 5.29182318716819,
+    "max_party_range_pp": 37.47142857142857,
+    "max_party_central90_range_pp": 30.0
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.5308579310154615,
+    "ari_common_median": 0.5308579310154615,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 16.0,
+    "resampled_k_counts": {
+      "16": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.684375,
+      "1": 0.5624390006449806,
+      "2": 0.8823529411764706,
+      "3": 0.47260969664138675,
+      "4": 0.722818798869427,
+      "5": 0.3328081199992574,
+      "6": 0.9215384615384616,
+      "7": 0.7364718614718615,
+      "8": 0.6474148126247321,
+      "9": 0.7681647940074907,
+      "10": 0.6985249035236412,
+      "11": 1.0,
+      "12": 0.7523538961038961,
+      "13": 1.0,
+      "14": 0.3598209724350858,
+      "15": 0.48768047708725676
+    },
+    "min_cluster_jaccard_median": 0.3328081199992574,
+    "unstable_assigned_fraction": 0.4177875377436179,
+    "point_stability_median": 0.8518518518518519,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "Fixed resolution checkpoint 8/12/16: test stability vs actual profile spread, not force optimal K."
+  },
+  "elapsed_stability_seconds": 3.9823505878448486
+}

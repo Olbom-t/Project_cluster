@@ -1,0 +1,65 @@
+{
+  "dataset": "2024_moscow_oblast",
+  "region": "Московская область",
+  "year": 2024,
+  "method": "kmeans",
+  "variant": "resolution_12",
+  "parameters": {
+    "n_clusters": 12,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 3985,
+    "k": 12,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.2826712722315765,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 62,
+    "max_cluster_size": 622,
+    "clusters_lt_10": 0,
+    "sse": 2.697935191344411,
+    "rmse_profile_pp": 2.601965858171011,
+    "max_party_range_pp": 33.36111111111111,
+    "max_party_central90_range_pp": 10.527910231153225
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.7185783963078878,
+    "ari_common_median": 0.7185783963078878,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 12.0,
+    "resampled_k_counts": {
+      "12": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.0,
+      "1": 0.8681945505474917,
+      "2": 0.7078779599271403,
+      "3": 0.8594452896239224,
+      "4": 0.8973380319869884,
+      "5": 0.8009433962264152,
+      "6": 0.5957880393177573,
+      "7": 0.9803913192071088,
+      "8": 0.8437088221115218,
+      "9": 0.8482686453576864,
+      "10": 0.9158131046868664,
+      "11": 0.43800053458893196
+    },
+    "min_cluster_jaccard_median": 0.0,
+    "unstable_assigned_fraction": 0.2614805520702635,
+    "point_stability_median": 1.0,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "Fixed resolution checkpoint 8/12/16: test stability vs actual profile spread, not force optimal K."
+  },
+  "elapsed_stability_seconds": 2.2100260257720947
+}

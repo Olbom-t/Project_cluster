@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "silhouette": "Maximum silhouette on fixed common sample",
+    "elbow": "Maximum normalized SSE departure from K=1 to last searched K; not a formal optimum"
+  },
+  "candidates": {
+    "silhouette": 2,
+    "elbow": 5
+  },
+  "base_sse": 46.5720983174557,
+  "grid_seconds": 2.571974992752075
+}

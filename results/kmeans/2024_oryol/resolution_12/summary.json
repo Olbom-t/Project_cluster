@@ -1,0 +1,65 @@
+{
+  "dataset": "2024_oryol",
+  "region": "Орловская область",
+  "year": 2024,
+  "method": "kmeans",
+  "variant": "resolution_12",
+  "parameters": {
+    "n_clusters": 12,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 694,
+    "k": 12,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.3354907638592074,
+    "silhouette_sample_assigned": 694,
+    "silhouette_sample_size": 694,
+    "min_cluster_size": 1,
+    "max_cluster_size": 142,
+    "clusters_lt_10": 2,
+    "sse": 0.5762989050743663,
+    "rmse_profile_pp": 2.8816694475782856,
+    "max_party_range_pp": 16.472619629079905,
+    "max_party_central90_range_pp": 14.246546165557056
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.838002559459577,
+    "ari_common_median": 0.838002559459577,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 12.0,
+    "resampled_k_counts": {
+      "12": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.905056179775281,
+      "1": 1.0,
+      "2": 0.9712215320910973,
+      "3": 0.8328754578754578,
+      "4": 0.9297560307017544,
+      "5": 0.847457627118644,
+      "6": 0.9140323147172462,
+      "7": 0.7008928571428572,
+      "8": 1.0,
+      "9": 1.0,
+      "10": 1.0,
+      "11": 0.8388888888888889
+    },
+    "min_cluster_jaccard_median": 0.7008928571428572,
+    "unstable_assigned_fraction": 0.16570605187319884,
+    "point_stability_median": 0.9583333333333334,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "Fixed resolution checkpoint 8/12/16: test stability vs actual profile spread, not force optimal K."
+  },
+  "elapsed_stability_seconds": 0.7215895652770996
+}

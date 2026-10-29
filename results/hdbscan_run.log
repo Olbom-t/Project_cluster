@@ -1,0 +1,59 @@
+{"stage": "grid", "dataset": "2021_altai", "candidates": 16, "failures": 0, "seconds": 0.8208248615264893}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2021_altai", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.3931297709923664, "silhouette": null, "ari": null, "min_j": 0.8518276894104987}
+{"dataset": "2021_altai", "method": "hdbscan", "variant": "leaf", "k": 2, "coverage": 0.3931297709923664, "silhouette": 0.5489012207981393, "ari": 0.971087088292691, "min_j": 0.6300751879699248}
+{"stage": "grid", "dataset": "2021_krasnodar", "candidates": 16, "failures": 0, "seconds": 1.3930108547210693}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2021_krasnodar", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.43572679509632223, "silhouette": null, "ari": null, "min_j": 0.7926491935483871}
+{"dataset": "2021_krasnodar", "method": "hdbscan", "variant": "leaf", "k": 2, "coverage": 0.35691768826619963, "silhouette": 0.6505343843657275, "ari": 1.0, "min_j": 0.7344497607655502}
+{"stage": "grid", "dataset": "2021_moscow", "candidates": 16, "failures": 0, "seconds": 3.2327208518981934}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2021_moscow", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.2780675267636563, "silhouette": null, "ari": null, "min_j": 0.6357695004403989}
+{"dataset": "2021_moscow", "method": "hdbscan", "variant": "leaf", "k": 4, "coverage": 0.04803733186933846, "silhouette": 0.36105107158285504, "ari": 0.4871372449626156, "min_j": 0.0}
+{"stage": "grid", "dataset": "2021_moscow_oblast", "candidates": 16, "failures": 0, "seconds": 3.956500768661499}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2021_moscow_oblast", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.7092371435534974, "silhouette": null, "ari": null, "min_j": 0.29592017574661456}
+{"dataset": "2021_moscow_oblast", "method": "hdbscan", "variant": "leaf", "k": 2, "coverage": 0.17791859614915914, "silhouette": 0.5706790462990307, "ari": 0.742516406499754, "min_j": 0.0}
+{"stage": "grid", "dataset": "2021_oryol", "candidates": 12, "failures": 0, "seconds": 0.1426689624786377}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2021_oryol", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.48079658605974396, "silhouette": null, "ari": null, "min_j": 0.8296659217236835}
+{"dataset": "2021_oryol", "method": "hdbscan", "variant": "leaf", "k": 2, "coverage": 0.34708392603129445, "silhouette": 0.6556196519210866, "ari": 0.9492648753907456, "min_j": 0.47265410645692335}
+{"stage": "grid", "dataset": "2021_rostov", "candidates": 16, "failures": 0, "seconds": 1.4780185222625732}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2021_rostov", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.6683244070390206, "silhouette": null, "ari": null, "min_j": 0.9046749070864827}
+{"dataset": "2021_rostov", "method": "hdbscan", "variant": "leaf", "k": 2, "coverage": 0.32631981637337415, "silhouette": 0.490446252466663, "ari": 0.6763400036308419, "min_j": 0.5857843137254902}
+{"stage": "grid", "dataset": "2024_altai", "candidates": 16, "failures": 0, "seconds": 0.4427490234375}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2024_altai", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.8156654888103652, "silhouette": null, "ari": null, "min_j": 0.9378534777301362}
+{"dataset": "2024_altai", "method": "hdbscan", "variant": "leaf", "k": 2, "coverage": 0.4163722025912839, "silhouette": 0.5039159360276885, "ari": 0.47002420382902443, "min_j": 0.0}
+{"stage": "grid", "dataset": "2024_krasnodar", "candidates": 16, "failures": 0, "seconds": 0.9872992038726807}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2024_krasnodar", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.9113747383112352, "silhouette": null, "ari": null, "min_j": 0.8680348192172306}
+{"dataset": "2024_krasnodar", "method": "hdbscan", "variant": "leaf", "k": 29, "coverage": 0.3339148639218423, "silhouette": 0.4592332142639454, "ari": 0.9188111720764441, "min_j": 0.0}
+{"stage": "grid", "dataset": "2024_moscow", "candidates": 16, "failures": 0, "seconds": 0.6286075115203857}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2024_moscow", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.6287534121929026, "silhouette": null, "ari": null, "min_j": 0.892143467704535}
+{"dataset": "2024_moscow", "method": "hdbscan", "variant": "leaf", "k": 2, "coverage": 0.6287534121929026, "silhouette": 0.6453067615822856, "ari": 0.9242521995570732, "min_j": 0.8389544411668306}
+{"stage": "grid", "dataset": "2024_moscow_oblast", "candidates": 16, "failures": 0, "seconds": 1.907618522644043}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2024_moscow_oblast", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.8348808030112923, "silhouette": null, "ari": null, "min_j": 0.621247134648105}
+{"dataset": "2024_moscow_oblast", "method": "hdbscan", "variant": "leaf", "k": 2, "coverage": 0.36612296110414055, "silhouette": 0.3889346984909842, "ari": 1.0, "min_j": 0.0}
+{"stage": "grid", "dataset": "2024_oryol", "candidates": 12, "failures": 0, "seconds": 0.1112508773803711}
+{"dataset": "2024_oryol", "method": "hdbscan", "variant": "eom", "k": 2, "coverage": 0.9639769452449568, "silhouette": 0.5936338995330952, "ari": 1.0, "min_j": 0.7105263157894737}
+{"dataset": "2024_oryol", "method": "hdbscan", "variant": "leaf", "k": 3, "coverage": 0.4755043227665706, "silhouette": 0.5225603745416083, "ari": 1.0, "min_j": 0.7841614906832298}
+{"stage": "grid", "dataset": "2024_rostov", "candidates": 16, "failures": 0, "seconds": 0.8629488945007324}
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+{"dataset": "2024_rostov", "method": "hdbscan", "variant": "eom", "k": 1, "coverage": 0.875686274509804, "silhouette": null, "ari": null, "min_j": 0.9722220162088671}
+{"dataset": "2024_rostov", "method": "hdbscan", "variant": "leaf", "k": 4, "coverage": 0.2635294117647059, "silhouette": 0.5034982971091331, "ari": 0.8334118117629709, "min_j": 0.0}
+{"stage": "complete", "datasets": 12, "finalists": 24}

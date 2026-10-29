@@ -1,0 +1,61 @@
+{
+  "dataset": "2024_altai",
+  "region": "Алтайский край",
+  "year": 2024,
+  "method": "ward",
+  "variant": "elbow",
+  "parameters": {
+    "n_clusters": 6,
+    "metric": "euclidean",
+    "features": "all named raw vote shares",
+    "equal_precinct_weights": true,
+    "linkage": "ward"
+  },
+  "metrics": {
+    "n": 1698,
+    "k": 6,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.24794673973369322,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 90,
+    "max_cluster_size": 656,
+    "clusters_lt_10": 0,
+    "sse": 1.84717520173066,
+    "rmse_profile_pp": 3.2982623844917547,
+    "max_party_range_pp": 26.45833333333334,
+    "max_party_central90_range_pp": 8.902665422610395
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.4499866223749812,
+    "ari_common_median": 0.4499866223749812,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 6.0,
+    "resampled_k_counts": {
+      "6": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.5311879542108013,
+      "1": 0.5365074119535455,
+      "2": 0.6262511638733705,
+      "3": 0.5135420668459469,
+      "4": 0.5441122048701059,
+      "5": 0.6369999726574249
+    },
+    "min_cluster_jaccard_median": 0.5135420668459469,
+    "unstable_assigned_fraction": 0.5871613663133097,
+    "point_stability_median": 0.7391304347826086,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "elbow",
+    "base_sse": 6.067030418173441,
+    "explained_sse_fraction": 0.6955388263428591
+  },
+  "elapsed_stability_seconds": 1.658756971359253
+}

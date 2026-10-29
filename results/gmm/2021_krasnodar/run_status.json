@@ -1,0 +1,11 @@
+{
+  "dataset": "2021_krasnodar",
+  "completed": true,
+  "candidate_count": 33,
+  "fit_errors": [],
+  "elapsed_seconds": 11.744445562362671,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

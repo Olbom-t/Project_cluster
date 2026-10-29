@@ -1,0 +1,11 @@
+{
+  "dataset": "2024_krasnodar",
+  "completed": true,
+  "candidate_count": 28,
+  "fit_errors": [],
+  "elapsed_seconds": 7.053743124008179,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

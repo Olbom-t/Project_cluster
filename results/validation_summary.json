@@ -1,0 +1,24 @@
+{
+  "prepared_datasets": 12,
+  "included_precincts": 29743,
+  "finalists": 132,
+  "successful_resamples": 3960,
+  "failed_resamples": 0,
+  "candidate_grid_counts": {
+    "kmeans": 228,
+    "ward": 228,
+    "gmm": 386,
+    "hdbscan": 184
+  },
+  "resolution8_passing": [
+    "2021_altai",
+    "2021_krasnodar",
+    "2021_moscow_oblast",
+    "2021_rostov",
+    "2024_moscow",
+    "2024_moscow_oblast",
+    "2024_oryol"
+  ],
+  "selection_repeats_per_dataset": 10,
+  "tests": "python -m unittest pilot.test_validation: 2 tests passed"
+}

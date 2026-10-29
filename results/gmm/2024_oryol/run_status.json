@@ -1,0 +1,11 @@
+{
+  "dataset": "2024_oryol",
+  "completed": true,
+  "candidate_count": 33,
+  "fit_errors": [],
+  "elapsed_seconds": 2.610654592514038,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

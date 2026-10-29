@@ -1,0 +1,60 @@
+{
+  "dataset": "2021_moscow",
+  "region": "Москва",
+  "year": 2021,
+  "method": "ward",
+  "variant": "elbow",
+  "parameters": {
+    "n_clusters": 5,
+    "metric": "euclidean",
+    "features": "all named raw vote shares",
+    "equal_precinct_weights": true,
+    "linkage": "ward"
+  },
+  "metrics": {
+    "n": 3643,
+    "k": 5,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.21652308714040278,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 36,
+    "max_cluster_size": 2167,
+    "clusters_lt_10": 0,
+    "sse": 19.502114496824532,
+    "rmse_profile_pp": 7.3166328955246955,
+    "max_party_range_pp": 68.59205776173285,
+    "max_party_central90_range_pp": 22.770567997496293
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.3950097402557194,
+    "ari_common_median": 0.3950097402557194,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 5.0,
+    "resampled_k_counts": {
+      "5": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.5923990363639813,
+      "1": 0.47662113941183704,
+      "2": 0.6150019666897311,
+      "3": 0.7238392238392238,
+      "4": 0.6700396107290787
+    },
+    "min_cluster_jaccard_median": 0.47662113941183704,
+    "unstable_assigned_fraction": 0.5363711227010706,
+    "point_stability_median": 0.7727272727272727,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "elbow",
+    "base_sse": 46.5720983174557,
+    "explained_sse_fraction": 0.5812489623317028
+  },
+  "elapsed_stability_seconds": 6.899538516998291
+}

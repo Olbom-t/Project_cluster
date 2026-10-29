@@ -1,0 +1,11 @@
+{
+  "dataset": "2021_oryol",
+  "completed": true,
+  "candidate_count": 28,
+  "fit_errors": [],
+  "elapsed_seconds": 2.8383100032806396,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

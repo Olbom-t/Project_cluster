@@ -1,0 +1,5 @@
+{
+  "boundary_fraction": 0.14445219818562458,
+  "threshold": 0.1,
+  "note": "Descriptive centroid margin, not class probability; for Ward the assigned group need not have the nearest centroid."
+}

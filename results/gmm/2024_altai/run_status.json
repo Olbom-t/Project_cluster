@@ -1,0 +1,11 @@
+{
+  "dataset": "2024_altai",
+  "completed": true,
+  "candidate_count": 33,
+  "fit_errors": [],
+  "elapsed_seconds": 3.542299747467041,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

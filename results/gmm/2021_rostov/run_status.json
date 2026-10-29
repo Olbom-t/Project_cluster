@@ -1,0 +1,11 @@
+{
+  "dataset": "2021_rostov",
+  "completed": true,
+  "candidate_count": 33,
+  "fit_errors": [],
+  "elapsed_seconds": 10.0528244972229,
+  "selected_variants": [
+    "bic_full",
+    "bic_diag"
+  ]
+}

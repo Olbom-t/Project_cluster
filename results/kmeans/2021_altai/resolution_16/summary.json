@@ -1,0 +1,69 @@
+{
+  "dataset": "2021_altai",
+  "region": "Алтайский край",
+  "year": 2021,
+  "method": "kmeans",
+  "variant": "resolution_16",
+  "parameters": {
+    "n_clusters": 16,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 1834,
+    "k": 16,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.17944938912457337,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 3,
+    "max_cluster_size": 325,
+    "clusters_lt_10": 1,
+    "sse": 9.382722929864492,
+    "rmse_profile_pp": 7.152613865837086,
+    "max_party_range_pp": 28.77876544383898,
+    "max_party_central90_range_pp": 21.022383018841015
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.669289643108433,
+    "ari_common_median": 0.669289643108433,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 16.0,
+    "resampled_k_counts": {
+      "16": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.8366680005335467,
+      "1": 0.451556943360222,
+      "2": 0.5746031746031746,
+      "3": 0.5369075369075369,
+      "4": 0.8380132807400891,
+      "5": 0.5927518427518428,
+      "6": 0.7573242273005867,
+      "7": 0.5568703384968445,
+      "8": 0.6666666666666666,
+      "9": 0.7672932330827068,
+      "10": 0.9195906432748537,
+      "11": 0.9145454545454546,
+      "12": 0.6285714285714286,
+      "13": 0.7198067632850241,
+      "14": 0.4873222016079159,
+      "15": 0.7568181818181818
+    },
+    "min_cluster_jaccard_median": 0.451556943360222,
+    "unstable_assigned_fraction": 0.3865866957470011,
+    "point_stability_median": 0.8695652173913043,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "Fixed resolution checkpoint 8/12/16: test stability vs actual profile spread, not force optimal K."
+  },
+  "elapsed_stability_seconds": 2.057692289352417
+}

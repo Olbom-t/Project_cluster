@@ -1,0 +1,36 @@
+Starting GMM: 2021_altai
+{"dataset": "2021_altai", "method": "gmm", "variant": "bic_full", "k": 4, "coverage": 1.0, "silhouette": 0.17717029793910108, "ari": 0.4799063003215585, "min_j": 0.29508363471971066}
+{"dataset": "2021_altai", "method": "gmm", "variant": "bic_diag", "k": 15, "coverage": 1.0, "silhouette": -0.05139628036288952, "ari": 0.44615964227120364, "min_j": 0.10555555555555556}
+Starting GMM: 2021_krasnodar
+{"dataset": "2021_krasnodar", "method": "gmm", "variant": "bic_full", "k": 7, "coverage": 1.0, "silhouette": 0.02907532671581946, "ari": 0.572391812265479, "min_j": 0.2868324681073685}
+{"dataset": "2021_krasnodar", "method": "gmm", "variant": "bic_diag", "k": 19, "coverage": 1.0, "silhouette": -0.03619044002493243, "ari": 0.5474585688044218, "min_j": 0.03270324523251923}
+Starting GMM: 2021_moscow
+{"dataset": "2021_moscow", "method": "gmm", "variant": "bic_full", "k": 4, "coverage": 1.0, "silhouette": 0.21790189107990152, "ari": 0.7312185913475995, "min_j": 0.1259650548557497}
+{"dataset": "2021_moscow", "method": "gmm", "variant": "bic_diag", "k": 16, "coverage": 1.0, "silhouette": 0.1053906888156084, "ari": 0.5018674223227347, "min_j": 0.0}
+Starting GMM: 2021_moscow_oblast
+{"dataset": "2021_moscow_oblast", "method": "gmm", "variant": "bic_full", "k": 7, "coverage": 1.0, "silhouette": 0.03759537217840238, "ari": 0.5815884323938842, "min_j": 0.1613702952445346}
+{"dataset": "2021_moscow_oblast", "method": "gmm", "variant": "bic_diag", "k": 20, "coverage": 1.0, "silhouette": 0.041049317074289035, "ari": 0.5620767686472719, "min_j": 0.2016784633533364}
+Starting GMM: 2021_oryol
+{"dataset": "2021_oryol", "method": "gmm", "variant": "bic_full", "k": 3, "coverage": 1.0, "silhouette": 0.21218475089860092, "ari": 0.7890168753436893, "min_j": 0.7252747252747253}
+{"dataset": "2021_oryol", "method": "gmm", "variant": "bic_diag", "k": 9, "coverage": 1.0, "silhouette": 0.049934674441165894, "ari": 0.569756425936703, "min_j": 0.24452438049560352}
+Starting GMM: 2021_rostov
+{"dataset": "2021_rostov", "method": "gmm", "variant": "bic_full", "k": 5, "coverage": 1.0, "silhouette": -0.09674051044930172, "ari": 0.4135611339328049, "min_j": 0.3119032258064516}
+{"dataset": "2021_rostov", "method": "gmm", "variant": "bic_diag", "k": 20, "coverage": 1.0, "silhouette": -0.03829280141214566, "ari": 0.43402242308736994, "min_j": 0.0}
+Starting GMM: 2024_altai
+{"dataset": "2024_altai", "method": "gmm", "variant": "bic_full", "k": 3, "coverage": 1.0, "silhouette": 0.20174092822601927, "ari": 0.9016577900824254, "min_j": 0.9116499442586399}
+{"dataset": "2024_altai", "method": "gmm", "variant": "bic_diag", "k": 20, "coverage": 1.0, "silhouette": 0.20991668537492136, "ari": 0.5814869491424481, "min_j": 0.008098223615464995}
+Starting GMM: 2024_krasnodar
+{"dataset": "2024_krasnodar", "method": "gmm", "variant": "bic_full", "k": 8, "coverage": 1.0, "silhouette": 0.1935937154252998, "ari": 0.6684389930410731, "min_j": 0.10612655286442041}
+{"dataset": "2024_krasnodar", "method": "gmm", "variant": "bic_diag", "k": 14, "coverage": 1.0, "silhouette": 0.29483238425869074, "ari": 0.7057490296671957, "min_j": 0.0}
+Starting GMM: 2024_moscow
+{"dataset": "2024_moscow", "method": "gmm", "variant": "bic_full", "k": 6, "coverage": 1.0, "silhouette": 0.31679223545640073, "ari": 0.7765630675396349, "min_j": 0.7735412917031604}
+{"dataset": "2024_moscow", "method": "gmm", "variant": "bic_diag", "k": 20, "coverage": 1.0, "silhouette": 0.2734428864407442, "ari": 0.6689093872840914, "min_j": 0.0}
+Starting GMM: 2024_moscow_oblast
+{"dataset": "2024_moscow_oblast", "method": "gmm", "variant": "bic_full", "k": 7, "coverage": 1.0, "silhouette": 0.16539837567389756, "ari": 0.8457169758327134, "min_j": 0.7344103784483157}
+{"dataset": "2024_moscow_oblast", "method": "gmm", "variant": "bic_diag", "k": 20, "coverage": 1.0, "silhouette": 0.23916710720327652, "ari": 0.6440991086913941, "min_j": 0.26525408929506955}
+Starting GMM: 2024_oryol
+{"dataset": "2024_oryol", "method": "gmm", "variant": "bic_full", "k": 5, "coverage": 1.0, "silhouette": 0.33205671194451786, "ari": 0.8383080505081371, "min_j": 0.2028657616892911}
+{"dataset": "2024_oryol", "method": "gmm", "variant": "bic_diag", "k": 20, "coverage": 1.0, "silhouette": 0.253640835079732, "ari": 0.6992312010530466, "min_j": 0.4363327674023769}
+Starting GMM: 2024_rostov
+{"dataset": "2024_rostov", "method": "gmm", "variant": "bic_full", "k": 5, "coverage": 1.0, "silhouette": 0.28703277321655585, "ari": 0.8086790356971559, "min_j": 0.09523809523809523}
+{"dataset": "2024_rostov", "method": "gmm", "variant": "bic_diag", "k": 19, "coverage": 1.0, "silhouette": 0.2535919574857218, "ari": 0.6495224439917227, "min_j": 0.0}

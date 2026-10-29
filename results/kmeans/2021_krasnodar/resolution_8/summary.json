@@ -1,0 +1,61 @@
+{
+  "dataset": "2021_krasnodar",
+  "region": "Краснодарский край",
+  "year": 2021,
+  "method": "kmeans",
+  "variant": "resolution_8",
+  "parameters": {
+    "n_clusters": 8,
+    "n_init": 20,
+    "max_iter": 500,
+    "tol": 0.0001,
+    "random_state": 20261028
+  },
+  "metrics": {
+    "n": 2855,
+    "k": 8,
+    "coverage": 1.0,
+    "noise_count": 0,
+    "silhouette": 0.25813692971997,
+    "silhouette_sample_assigned": 1500,
+    "silhouette_sample_size": 1500,
+    "min_cluster_size": 147,
+    "max_cluster_size": 530,
+    "clusters_lt_10": 0,
+    "sse": 15.852423143757061,
+    "rmse_profile_pp": 7.451518291380946,
+    "max_party_range_pp": 48.975903614457835,
+    "max_party_central90_range_pp": 19.68193427660463
+  },
+  "stability": {
+    "repeats_requested": 30,
+    "repeats_successful": 30,
+    "failures": [],
+    "fraction": 0.8,
+    "ari_all_median": 0.9615737365776387,
+    "ari_common_median": 0.9615737365776387,
+    "median_resampled_coverage": 1.0,
+    "median_resampled_k": 8.0,
+    "resampled_k_counts": {
+      "8": 30
+    },
+    "cluster_jaccard_medians": {
+      "0": 0.9466903073286053,
+      "1": 0.99036717107162,
+      "2": 0.9822129115274769,
+      "3": 0.9561478474521953,
+      "4": 0.9390308662462662,
+      "5": 0.9792745495764228,
+      "6": 0.9802277432712215,
+      "7": 0.9652227756090994
+    },
+    "min_cluster_jaccard_median": 0.9390308662462662,
+    "unstable_assigned_fraction": 0.046935201401050786,
+    "point_stability_median": 1.0,
+    "note": "Internal stability on shared in-sample observations; no independent validation or true-class probability."
+  },
+  "extras": {
+    "selection_rule": "Fixed resolution checkpoint 8/12/16: test stability vs actual profile spread, not force optimal K."
+  },
+  "elapsed_stability_seconds": 1.9043867588043213
+}
